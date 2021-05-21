@@ -1,0 +1,4 @@
+# Routes
+
+GET /version    co.com.employee.infrastructure.interfaces.controllers.VersionController.version()
+GET /employees  co.com.employee.infrastructure.interfaces.controllers.EmployeeController.getOrAllEmployees(idEmployee: Integer ?= null)
